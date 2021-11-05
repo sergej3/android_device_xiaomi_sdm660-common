@@ -9,6 +9,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-arrow
 
+# HALs
+OVERRIDE_QCOM_HARDWARE_VARIANT := msm8998-r
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
